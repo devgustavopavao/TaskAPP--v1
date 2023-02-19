@@ -11,6 +11,7 @@ import com.devgusta.taskapp.R
 import com.devgusta.taskapp.databinding.FragmentEmailSendBinding
 import com.devgusta.taskapp.databinding.FragmentLoginBinding
 import com.devgusta.taskapp.databinding.FragmentRegisterBinding
+import com.devgusta.taskapp.util.createBottomSheet
 
 
 class LoginFragment : Fragment() {
@@ -39,10 +40,10 @@ class LoginFragment : Fragment() {
                 if(senha.isNotEmpty()) {
                     findNavController().navigate(R.id.action_global_homeFragment)
                 }else{
-                    Toast.makeText(requireContext(), "Digite uma senha antes.", Toast.LENGTH_SHORT).show()
+                    createBottomSheet(msg = getString(R.string.senha_empty))
                 }
             }else{
-                Toast.makeText(requireContext(), "Digite um email antes.", Toast.LENGTH_SHORT).show()
+               createBottomSheet(msg = getString(R.string.email_empty))
             }
         }
     }

@@ -38,7 +38,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.491"
             app:helperTextTextColor="@color/white"
-            app:helperText="Digite seu email cadastrado."
+            app:helperText="@string/helper_email"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/toolbar">
 
@@ -47,9 +47,9 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawableStart="@drawable/baseline_email_24"
                 android:drawablePadding="4dp"
-                android:hint="Digite seu e-mail"
+                android:hint="@string/input_email"
                 android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -59,7 +59,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="28dp"
             android:background="#FDCC2E"
-            android:text="Enviar"
+            android:text="@string/btn_enviar"
             android:textColor="@color/black"
             app:backgroundTint="@null"
             app:layout_constraintEnd_toEndOf="parent"

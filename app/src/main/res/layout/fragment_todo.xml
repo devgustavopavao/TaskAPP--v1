@@ -19,5 +19,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.927"
-        android:contentDescription="New Task" />
+        android:contentDescription="@string/new_task"
+        android:focusable="true" />
 </androidx.constraintlayout.widget.ConstraintLayout>

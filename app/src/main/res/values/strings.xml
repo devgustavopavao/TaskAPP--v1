@@ -3,9 +3,38 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+
+    <!--     VIEWS-->
+    <string name="input_email">Seu e-mail</string>
+    <string name="helper_email">Ex: pedroalves@gmail.com</string>
+    <string name="input_senha">Sua senha</string>
+    <string name="input_tarefa">Crie uma tarefa</string>
+    <string name="helper_tarefa">Ex: jogar bola as 19:00</string>
+    <string name="btn_login">Entrar</string>
+    <string name="btn_cadastrar">Cadastrar</string>
+    <string name="btn_enviar">Enviar</string>
+    <string name="btn_salvar">Salvar</string>
+    <string name="txtview_status">Status</string>
+    <string name="txtview_esqueceu">Esqueceu a senha?</string>
+    <string name="txtview_cadastrar">Crie uma conta gratis agora mesmo</string>
+    <string name="opt_todo">A Fazer</string>
+    <string name="opt_doing">Fazendo</string>
+    <string name="opt_done">Feito</string>
+
+
     <!--     TABS TITLE-->
     <string name="tab_title_todo">A Fazer</string>
     <string name="tab_title_doing">Fazendo</string>
     <string name="tab_title_done">Feitos</string>
+
+    <!--    Genericos-->
+
+    <string name="text_aviso">Aviso</string>
+    <string name="text_btn">Entendi</string>
+    <string name="email_empty">Digite um email antes.</string>
+    <string name="senha_empty">Digite uma senha antes.</string>
+    <string name="tarefa_empty">Digite uma tarefa antes.</string>
+    <string name="new_task">Nova Tarefa</string>
+
 
 </resources>

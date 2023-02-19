@@ -40,7 +40,7 @@
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/baseline_lock_open_24"
                 android:drawablePadding="4dp"
-                android:hint="Digite sua senha"
+                android:hint="@string/input_senha"
                 android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -60,9 +60,9 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawableStart="@drawable/baseline_email_24"
                 android:drawablePadding="4dp"
-                android:hint="Digite seu e-mail"
+                android:hint="@string/input_email"
                 android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -70,7 +70,7 @@
             android:id="@+id/textEsqueceu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Esqueceu a senha?"
+            android:text="@string/txtview_esqueceu"
             android:textColor="@color/white"
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -84,7 +84,7 @@
             android:id="@+id/editCadastrar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Crie uma conta gratis agora mesmo"
+            android:text="@string/txtview_cadastrar"
             android:textColor="@color/white"
             android:textSize="16sp"
             android:textStyle="bold"
@@ -101,7 +101,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="28dp"
             android:background="#FDCC2E"
-            android:text="Entrar"
+            android:text="@string/btn_login"
             android:textColor="@color/black"
             app:backgroundTint="@null"
             app:layout_constraintEnd_toEndOf="parent"

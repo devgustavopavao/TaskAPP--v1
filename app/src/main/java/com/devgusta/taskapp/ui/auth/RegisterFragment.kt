@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import com.devgusta.taskapp.R
 import com.devgusta.taskapp.databinding.FragmentRegisterBinding
+import com.devgusta.taskapp.util.createBottomSheet
 import com.devgusta.taskapp.util.initToolbar
 
 
@@ -37,10 +38,10 @@ class RegisterFragment : Fragment() {
                 if(senha.isNotEmpty()) {
                     Toast.makeText(requireContext(), "Tudo ok", Toast.LENGTH_SHORT).show()
                 }else{
-                    Toast.makeText(requireContext(), "Digite uma senha antes.", Toast.LENGTH_SHORT).show()
+                    createBottomSheet(msg = getString(R.string.senha_empty))
                 }
             }else{
-                Toast.makeText(requireContext(), "Digite um email antes.", Toast.LENGTH_SHORT).show()
+                createBottomSheet(msg = getString(R.string.email_empty))
             }
         }
     }
